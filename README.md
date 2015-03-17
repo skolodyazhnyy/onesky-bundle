@@ -1,4 +1,4 @@
-# OneSky integration Symfony Bundle
+# OneSky Symfony Bundle [![Build Status](https://travis-ci.org/skolodyazhnyy/onesky-bundle.svg?branch=master)](https://travis-ci.org/skolodyazhnyy/onesky-bundle)
 
 ## Installation
 
