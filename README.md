@@ -22,7 +22,7 @@ class AppKernel extends Kernel
 
 ```
 
-Configure OneSky API, add following configuration to your `app/config/config.yml`
+Create a configuration for the bundle. Add following configuration to your `app/config/config.yml`
 
 ```yaml
 seven_onesky:
@@ -35,6 +35,15 @@ seven_onesky:
     #    output - output filename pattern, you can use [filename], [locale], [extension] and [dirname] as parameters
     mappings:
         - { sources: ["messages.xliff"], locales: ["en", "es"], output: "%kernel.root_dir%/Resources/translations/messages.[locale].xliff" }
+```
+
+Setup OpenSky API parameters in `app/config/parameters.yml`
+
+```yaml
+parameters:
+    onesky_api_key: <replace with your OneSky API key>
+    onesky_secret: <replace with your OneSky secret>
+    onesky_project: <replace with your OneSky project ID>
 ```
 
 ## Usage
