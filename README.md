@@ -57,7 +57,7 @@ You are free to keep your translations under version control system or outside.
 
 ### Usage with capifony
 
-If you are using capifony you can setup a task to update translations on remote server, simply add these task to your `app/deploy.rb`:
+If you are using capifony you can setup a task to update translations on remote server, simply add this task to your `app/deploy.rb`:
 
 ```ruby
 namespace :onesky do
