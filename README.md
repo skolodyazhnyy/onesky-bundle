@@ -2,13 +2,13 @@
 
 ## Installation
 
-1. Add bundle to your composer requirements
+Add bundle to your composer requirements
 
 ```bash
 php composer.phar require skolodyazhnyy/onesky-bundle
 ```
 
-2. Add bundle to your application kernel (`app/AppKernel.php`)
+Add bundle to your application kernel (`app/AppKernel.php`)
 
 ```php
 class AppKernel extends Kernel
@@ -22,7 +22,7 @@ class AppKernel extends Kernel
 
 ```
 
-3. Configure OneSky API, add following configuration to your `app/config/config.yml`
+Configure OneSky API, add following configuration to your `app/config/config.yml`
 
 ```yaml
 seven_onesky:
