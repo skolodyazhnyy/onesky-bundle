@@ -76,3 +76,8 @@ And then run it, using
 ```bash
 cap onesky:dump
 ```
+
+Also you can add it to the deployment process
+```ruby
+after "symfony:assetic:dump", "onesky:dump"
+```
